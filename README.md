@@ -5,6 +5,7 @@ General considerations:
 3. System must be configured to use touch keyboard in desktop mode (unclear on requirement)
 4. Behavior varies based on touch input device and system state when the app is started
 5. Behavior varies based on `BorderStyle`
+6. Triggering gesture must originate be touch - cannot use mouse to test
 
 ### Things that don't work
 - `disable-usb-keyboard-detect` does not by itself produce reliable SIP activation
